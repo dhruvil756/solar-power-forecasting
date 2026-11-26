@@ -1,0 +1,6 @@
+Model,MAE,RMSE,R2
+Hourly average (baseline),107.105,149.446,0.832
+RF: Hour only,107.113,149.526,0.832
+RF: Hour + GHI,130.285,180.31,0.755
+RF: Hour + GHI + Temperature,120.173,168.78,0.785
+RF: all features,113.74,151.671,0.827

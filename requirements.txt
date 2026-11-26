@@ -1,0 +1,24 @@
+# Solar Power Generation Forecasting - requirements
+# Tested with Python 3.11 to 3.13 (pandas 3.x requires Python 3.11 or newer).
+# Install with:  python -m pip install -r requirements.txt
+#DOWNLOAD Solar Weather Data-Set Form https://data.mendeley.com/datasets/2mwxrj5pkz/1
+
+# Data handling
+pandas==3.1.1
+numpy==2.5.5
+
+# Plots used in the notebooks and on the Data Analysis page
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Machine learning (Linear Regression, Random Forest, TimeSeriesSplit, metrics)
+scikit-learn==1.9.1
+
+# Saving and loading the final model
+joblib==1.6.0
+
+# Web dashboard
+streamlit==1.67.0
+
+# Notebooks (open and run the files in notebooks/)
+jupyter==1.1.1
